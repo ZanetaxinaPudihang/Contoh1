@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="468.0" prefWidth="327.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.e.catin.PrimaryController">
+   <children>
+      <Label text="SISTEM E-CATIN" />
+      <Label text="KELOMPOK TREE" />
+      <VBox alignment="TOP_CENTER" prefHeight="0.0" prefWidth="200.0">
+         <children>
+            <Label prefHeight="0.0" prefWidth="175.0" text="71180279 - Zanetaxina Pudihang" />
+            <Label layoutX="10.0" layoutY="10.0" text="71180288 - Columbanus Dian Don Hary " textAlignment="CENTER" />
+            <Label layoutX="10.0" layoutY="27.0" text=" 71180311 - Gratsia Theodorin Bungkuran " textAlignment="CENTER" />
+         </children>
+      </VBox>
+      <Label layoutX="85.0" layoutY="67.0" />
+      <ImageView fitHeight="246.0" fitWidth="286.0">
+         <image>
+            <Image url="@../../../../logo/logo.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
